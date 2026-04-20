@@ -1,0 +1,58 @@
+# =========================
+# General
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.env/
+.envrc
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# LTSpice
+# =========================
+
+# Resultados de simulación
+*.raw
+*.op.raw
+*.fft
+*.noise
+
+# Archivos generados
+*.net
+*.log
+*.txt
+
+# Backups y temporales
+*.bak
+*.backup
+*.tmp
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
