@@ -7,20 +7,25 @@ Repositorio de trabajos prácticos y tareas semanales de la materia **Teoría de
 * `tarea_semanal_X/`
   Desarrollo de cada tarea en Jupyter Notebook, incluyendo análisis teórico, cálculos y conclusiones.
 
-* `programas/python/`
-  Scripts en Python utilizados para análisis de sistemas (Bode, polos y ceros, retardo de grupo, etc.).
+* `programas/`
+  Implementaciones y herramientas utilizadas en el análisis:
 
-* `programas/spice/`
-  Simulaciones en LTSpice utilizadas para validar los resultados teóricos.
+  * `python/`: scripts para análisis de sistemas (Bode, polos y ceros, retardo de grupo, etc.)
+  * `spice/`: simulaciones en LTSpice
+
+* `recursos/`
+  Material complementario utilizado en cada tarea:
+
+  * imágenes de circuitos
+  * capturas de resultados
+  * `consigna/`: copia de la consigna para referencia
 
 ## Herramientas utilizadas
 
-* Python (usando biblioteca de pytc2, entre otras)
+* Python (SciPy, Matplotlib, pytc2)
 * LTSpice
 * Jupyter Notebook
 
 ## Notas
 
 * Cada tarea se organiza en su propia carpeta.
-* Los archivos generados automáticamente por simulaciones fueron excluidos mediante `.gitignore`.
-
