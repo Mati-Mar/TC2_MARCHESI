@@ -4,28 +4,25 @@ Repositorio de trabajos prácticos y tareas semanales de la materia **Teoría de
 
 ## Estructura
 
+Cada trabajo práctico y tarea semanal se encuentra organizado en su propia carpeta. 
+Dentro de cada una se incluyen el desarrollo en Jupyter Notebook y los archivos necesarios para su realización.
+
 * `tarea_semanal_X/`
-  Desarrollo de cada tarea en Jupyter Notebook, incluyendo análisis teórico, cálculos y conclusiones.
+  Desarrollo de cada tarea semanal, incluyendo análisis teórico, cálculos y conclusiones.
 
-* `programas/`
-  Implementaciones y herramientas utilizadas en el análisis:
+  * `programas/`: scripts y simulaciones utilizados en el desarrollo.
+    * `python/`: programas para análisis de sistemas, gráficos, cálculos, etc.
+    * `spice/`: simulaciones y modelos utilizados en LTSpice.
+  * `recursos/`: material complementario utilizado en la tarea, como imágenes, documentación, consignas y hojas de datos.
 
-  * `python/`: scripts para análisis de sistemas (Bode, polos y ceros, retardo de grupo, etc.)
-  * `spice/`: simulaciones en LTSpice
+* `TPLX/`
+  Desarrollo de cada trabajo práctico de laboratorio, incluyendo análisis teórico, cálculos, simulaciones, mediciones, resultados y conclusiones.
 
-* `recursos/`
-  Material complementario utilizado en cada tarea:
-
-  * imágenes de circuitos
-  * capturas de resultados
-  * `consigna/`: copia de la consigna para referencia
+  Cada TPL puede contener archivos adicionales específicos del trabajo, como diseños de circuitos o placas PCB.
 
 ## Herramientas utilizadas
 
 * Python (SciPy, Matplotlib, pytc2)
 * LTSpice
 * Jupyter Notebook
-
-## Notas
-
-* Cada tarea se organiza en su propia carpeta.
+* KiCad
